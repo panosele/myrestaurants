@@ -31,6 +31,7 @@ hr{
 li{
     width: 150px;
     font-size: 0.5em;
+    cursor: pointer;
 }
 
 input{
@@ -50,5 +51,6 @@ button{
     height: 30px;
     width: 20%;
     background-color: goldenrod;
+    cursor: pointer;
 }
 

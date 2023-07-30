@@ -4,16 +4,7 @@ import './bussiness.css';
 class Bussiness extends React.Component{
     constructor(props) {
         super(props);
-        this.state = {
-            src: "",
-            name: "NAME",
-            p1: "1",
-            p2: "2",
-            p3: "3",
-            p4: "4",
-            p5: "5",
-            p6: "6",
-        };
+        this.state = {};
         this.changeBussiness = this.changeBussiness.bind(this);
     }
 
@@ -33,7 +24,7 @@ class Bussiness extends React.Component{
     render() {
         return(
             <div className="bussinessContainer">
-                <img src={this.props.src} alt="business image"/>
+                <img src={this.props.src} alt="business"/>
                 <h5>{this.props.name}</h5>
                 <div className="infoContainer">
                     <div className="leftInfo">
