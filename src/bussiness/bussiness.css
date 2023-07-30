@@ -1,0 +1,37 @@
+.bussinessContainer{
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+    margin: 0;
+    color: goldenrod;
+    text-align: start;
+}
+
+.infoContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.leftInfo{
+    margin: 0;
+    padding: 0;
+}
+
+.rightInfo{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 0.6em;
+    color: black;
+}
