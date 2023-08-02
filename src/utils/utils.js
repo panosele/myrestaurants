@@ -1,5 +1,5 @@
 
-const keyAPI = "ioiyDvtpqEvGgNkolG8h2VOuzzrlmW3otn-icacRcBupSvesUasS2Fa_p9PRvr307YSN5_HKdGr8dCmS_XYSyZAvkB0kb0UCyItPs95qvlOe29JrUAQjM-ETvwbEZHYx";
+const keyAPI = process.env.API_KEY;
 
 let respJSON = "";
 function searchAPI(searchBusiness, location, sorting){
