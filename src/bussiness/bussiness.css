@@ -1,13 +1,19 @@
 .bussinessContainer{
     max-width: 300px;
-    margin: 20px auto;
+
+    margin: 15px 40px;
     padding: 2%;
     display: flex;
     flex-direction: column;
 }
 
+img{
+    width: 280px;
+    height: 200px;
+}
+
 h5{
-    margin: 0;
+    margin: 5px;
     color: goldenrod;
     text-align: start;
 }
@@ -24,14 +30,26 @@ h5{
 .leftInfo{
     margin: 0;
     padding: 0;
+    text-align: left;
 }
 
 .rightInfo{
     margin: 0;
     padding: 0;
+    text-align: right;
 }
 
 p{
     font-size: 0.6em;
     color: black;
+}
+
+.category{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.rating{
+    color: goldenrod;
+    font-weight: bold;
 }

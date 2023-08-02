@@ -1,7 +1,7 @@
 import React from 'react';
 import './searchBar.css';
 
-const sortingOptions = ["Best Match", "Highest Rated", "Most Reviewed"]
+const sortingOptions = ["best_match", "rating", "review_count"]
 
 class SearchBar extends React.Component{
     constructor(props) {
@@ -39,7 +39,7 @@ class SearchBar extends React.Component{
                 <hr/>
                 <input  className="bName" type="text" placeholder="Search by Name"/>
                 <input className="bLocation" type="text" placeholder="Search by Location"/>
-                <div className="button" ><button onClick={this.clickButtonHandler}>Let's GO</button></div>
+                <div className="button" onClick={this.props.onChange}><button id="but_search" onClick={this.clickButtonHandler}>Let's GO</button></div>
             </div>
         )
     }

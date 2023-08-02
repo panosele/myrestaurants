@@ -33,8 +33,8 @@ class Bussiness extends React.Component{
                         <p>{this.props.p3}</p>
                     </div>
                     <div className="rightInfo">
-                        <p>{this.props.p4}</p>
-                        <p>{this.props.p5}</p>
+                        <p className="category">{this.props.p4}</p>
+                        <p className="rating">{this.props.p5}</p>
                         <p>{this.props.p6}</p>
                     </div>
                 </div>
