@@ -25,10 +25,10 @@ function App(props) {
 
 
     const onChangeTheList = () => {
-        setTimeout(()=> {
             const JSON_LIST = searchAPI(searchBusiness, searchLocation, sortingOption);
             const businessesFromJson = JSON_LIST.businesses;
             console.log(businessesFromJson);
+            changeLIST([]);
             for (let prop in businessesFromJson){
                 LIST.push({
                     id: prop,
@@ -43,8 +43,8 @@ function App(props) {
                 })
             }
             console.log(LIST);
-        }, 1000)
-    }
+        }
+
 
   return (
     <div className="App">
